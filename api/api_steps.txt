@@ -1,0 +1,17 @@
+verification_api/
+│
+├── app/
+│   ├── __init__.py
+│   ├── main.py
+│   ├── models.py
+│   ├── schemas.py
+│   └── services/
+│       ├── __init__.py
+│       ├── document_service.py
+│       ├── video_service.py
+│       ├── cross_verification_service.py
+│       ├── identity_matching_service.py
+│       └── decision_service.py
+│
+├── requirements.txt
+└── Dockerfile
